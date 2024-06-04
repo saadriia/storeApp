@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
  
 import 'widgets/home_App_bar.dart';
+import 'widgets/searchBar.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -24,7 +25,7 @@ crossAxisAlignment: CrossAxisAlignment.start
 
               CustomAppBar(),
                   SizedBox(height:20),
-
+MySearchBar(),
 ],
           ),
         ),

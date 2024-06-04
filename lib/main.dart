@@ -18,6 +18,7 @@ class Appstore extends StatelessWidget {
         fontFamily: 'Bentham',
       ),
       home: const BottomNavBar(),
+      
     );
   }
 
