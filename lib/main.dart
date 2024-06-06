@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'mainScreen.dart';
+import 'screens/Home/homeScreen.dart';
 import 'screens/nav_Bar.dart';
 
 void main() {
@@ -12,13 +13,15 @@ class Appstore extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) =>MaterialApp(
-          debugShowCheckedModeBanner: false,
+           debugShowCheckedModeBanner: false,
       theme: ThemeData(
         //textTheme: ,
         fontFamily: 'Bentham',
       ),
-      home: const BottomNavBar(),
+      home:   BottomNavBar(),
+        
       
     );
+    
   }
 

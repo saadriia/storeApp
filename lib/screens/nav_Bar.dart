@@ -105,6 +105,8 @@ class _BottomNavBarState extends State<BottomNavBar> {
         ),
       ),
       body:screens[cuttentIndex],
+   
+
     );
   }
 }
