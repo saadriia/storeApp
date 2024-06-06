@@ -1,5 +1,9 @@
-import 'package:flutter/material.dart';
+// ignore_for_file: prefer_const_constructors
 
+import 'package:flutter/material.dart';
+import 'package:shopiphy/screens/Home/widgets/product_Cart.dart';
+
+import '../../models/product_model.dart';
 import 'widgets/home_App_bar.dart';
 import 'widgets/image_slider.dart';
 import 'widgets/searchBar.dart';
@@ -27,15 +31,53 @@ class _HomeScreenState extends State<HomeScreen> {
               const CustomAppBar(),
               const SizedBox(height: 20),
               const MySearchBar(),
-              ImagSlider(
-                  onChange: (value) {
-                    setState(
-                      () {
-                        currentSlider = value;
-                      },
-                    );
-                  },
-                  currentSlide: currentSlider),
+              // ImagSlider(
+              //   currentSlide: currentSlider,
+              //   onChange: (value) {
+              //     setState(
+              //       () {
+              //         currentSlider = value;
+              //       },
+              //     );
+              //   },
+              // ),
+              const SizedBox(
+                height: 20,
+              ),
+              const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    '4U منتجات    ',
+                    style: TextStyle(
+                      fontSize: 25,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                  Text(
+                    'َشوف كل المنتجات ',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w500,
+                      color: Colors.black54,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 5,
+                    width: 5,
+                  )
+                ],
+              ),
+              GridView.builder(
+                physics: NeverScrollableScrollPhysics(),
+                shrinkWrap: true,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount:2,
+                  ),
+                  itemCount: all.length ,
+                  itemBuilder: (context, index) {
+                    return ProductCart(product: all[index],);
+                  })
             ],
           ),
         ),
