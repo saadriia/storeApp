@@ -31,7 +31,7 @@ final List<Product> all = [
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image:   'imgs/FSicons/tow.jpg',
-    price: 120,
+    price: 65,
     seller: "Tariqul isalm",
     colors: [
       Colors.black,
@@ -48,7 +48,7 @@ final List<Product> all = [
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: 'imgs/FSicons/one.jpg',
-    price: 120,
+    price: 65,
     seller: "Joy Store",
     colors: [
       Colors.brown,
@@ -65,7 +65,7 @@ final List<Product> all = [
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: 'imgs/FSicons/one.jpg',
-    price: 55,
+    price: 65,
     seller: "Ram Das",
     colors: [
       Colors.black,
@@ -82,7 +82,7 @@ final List<Product> all = [
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: "imgs/FSicons/five.jpg",
-    price: 155,
+    price: 65,
     seller: "Jacket Store",
     colors: [
       Colors.blueAccent,
@@ -99,7 +99,7 @@ final List<Product> all = [
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: "imgs/FSicons/three.jpg",
-    price: 1000,
+    price: 65,
     seller: "Jacket Store",
     colors: [
       Colors.lightBlue,
@@ -116,7 +116,7 @@ final List<Product> all = [
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: "imgs/FSicons/four.jpg",
-    price: 255,
+    price: 65,
     seller: "The Seller",
     colors: [
       Colors.grey,
@@ -133,7 +133,7 @@ final List<Product> all = [
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: "imgs/FSicons/five.jpg",
-    price: 155,
+    price: 65,
     seller: "Love Seller",
     colors: [
       Colors.purpleAccent,
@@ -150,7 +150,7 @@ final List<Product> all = [
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: "imgs/FSicons/six.jpg",
-    price: 155,
+    price: 65,
     seller: "I Am Seller",
     colors: [
       Colors.brown,
@@ -167,7 +167,7 @@ final List<Product> all = [
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: "imgs/FSicons/seven.jpg",
-    price: 155,
+    price: 65,
     seller: "PK Store",
     colors: [
       Colors.lightGreen,
@@ -187,7 +187,7 @@ final List<Product> shoes = [
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: "images/shoes/Air Jordan.png",
-    price: 255,
+    price: 65,
     seller: "The Seller",
     colors: [
       Colors.grey,

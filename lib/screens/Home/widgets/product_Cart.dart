@@ -36,8 +36,26 @@ class ProductCart extends StatelessWidget {
               //   height: 10,
                 
               // ),
-              const Padding(padding: EdgeInsets.only(left: 10),)
+                Padding(
+                  padding: const EdgeInsets.only(left: 66,top: 16),
+              child: 
+                Row(
+                  children: [
+                    Text(
+                      "\$${product.price}",
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+
+                      ),
+
+                    ),
+                  ],
+                )
+              ),
+              
             ],
+            
           ),
         ),
       ]),

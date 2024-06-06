@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    '4U منتجات    ',
+                    '4U خصم 30% على كل كتب     ',
                     style: TextStyle(
                       fontSize: 25,
                       fontWeight: FontWeight.w800,
@@ -73,6 +73,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 shrinkWrap: true,
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount:2,
+                    childAspectRatio: 0.78,
+                    crossAxisSpacing: 20,mainAxisSpacing: 20,
                   ),
                   itemCount: all.length ,
                   itemBuilder: (context, index) {
