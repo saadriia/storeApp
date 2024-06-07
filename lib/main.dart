@@ -14,8 +14,11 @@ class Appstore extends StatelessWidget {
   @override
   Widget build(BuildContext context) =>MaterialApp(
            debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        //textTheme: ,
+      theme: 
+      ThemeData(
+       //brightness: Brightness.dark,  
+       
+         //textTheme:  
         fontFamily: 'Bentham',
       ),
       home:   BottomNavBar(),

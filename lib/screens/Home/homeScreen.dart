@@ -5,7 +5,6 @@ import 'package:shopiphy/screens/Home/widgets/product_Cart.dart';
 
 import '../../models/product_model.dart';
 import 'widgets/home_App_bar.dart';
-import 'widgets/image_slider.dart';
 import 'widgets/searchBar.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,6 +18,9 @@ class _HomeScreenState extends State<HomeScreen> {
   int currentSlider = 0;
   @override
   Widget build(BuildContext context) {
+    
+  
+
     return Scaffold(
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
@@ -69,16 +71,19 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
               GridView.builder(
-                physics: NeverScrollableScrollPhysics(),
-                shrinkWrap: true,
+                  physics: NeverScrollableScrollPhysics(),
+                  shrinkWrap: true,
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount:2,
+                    crossAxisCount: 2,
                     childAspectRatio: 0.78,
-                    crossAxisSpacing: 20,mainAxisSpacing: 20,
+                    crossAxisSpacing: 20,
+                    mainAxisSpacing: 20,
                   ),
-                  itemCount: all.length ,
+                  itemCount: all.length,
                   itemBuilder: (context, index) {
-                    return ProductCart(product: all[index],);
+                    return ProductCart(
+                      product: all[index],
+                    );
                   })
             ],
           ),

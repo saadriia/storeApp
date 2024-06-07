@@ -179,6 +179,151 @@ final List<Product> all = [
     rate: 5.0,
     quantity: 1,
   ),
+  Product(
+    title: "  Pants",
+    description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
+    image: "imgs/FSicons/eghit.jpg",
+    price: 65,
+    seller: "PK Store",
+    colors: [
+      Colors.lightGreen,
+      Colors.blueGrey,
+      Colors.deepPurple,
+    ],
+    category: "WomenFashion",
+    review: "(55 Reviews)",
+    rate: 5.0,
+    quantity: 1,
+  ),Product(
+    title: "  Pants",
+    description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
+    image: "imgs/FSicons/nine.jpg",
+    price: 65,
+    seller: "PK Store",
+    colors: [
+      Colors.lightGreen,
+      Colors.blueGrey,
+      Colors.deepPurple,
+    ],
+    category: "WomenFashion",
+    review: "(55 Reviews)",
+    rate: 5.0,
+    quantity: 1,
+  ),Product(
+    title: "  Pants",
+    description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
+    image: "imgs/FSicons/seven.jpg",
+    price: 65,
+    seller: "PK Store",
+    colors: [
+      Colors.lightGreen,
+      Colors.blueGrey,
+      Colors.deepPurple,
+    ],
+    category: "WomenFashion",
+    review: "(55 Reviews)",
+    rate: 5.0,
+    quantity: 1,
+  ),Product(
+    title: "  Pants",
+    description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
+    image: "imgs/FSicons/seven.jpg",
+    price: 65,
+    seller: "PK Store",
+    colors: [
+      Colors.lightGreen,
+      Colors.blueGrey,
+      Colors.deepPurple,
+    ],
+    category: "WomenFashion",
+    review: "(55 Reviews)",
+    rate: 5.0,
+    quantity: 1,
+  ),Product(
+    title: "  Pants",
+    description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
+    image: "imgs/FSicons/seven.jpg",
+    price: 65,
+    seller: "PK Store",
+    colors: [
+      Colors.lightGreen,
+      Colors.blueGrey,
+      Colors.deepPurple,
+    ],
+    category: "WomenFashion",
+    review: "(55 Reviews)",
+    rate: 5.0,
+    quantity: 1,
+  ),Product(
+    title: "  Pants",
+    description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
+    image: "imgs/FSicons/seven.jpg",
+    price: 65,
+    seller: "PK Store",
+    colors: [
+      Colors.lightGreen,
+      Colors.blueGrey,
+      Colors.deepPurple,
+    ],
+    category: "WomenFashion",
+    review: "(55 Reviews)",
+    rate: 5.0,
+    quantity: 1,
+  ),Product(
+    title: "  Pants",
+    description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
+    image: "imgs/FSicons/seven.jpg",
+    price: 65,
+    seller: "PK Store",
+    colors: [
+      Colors.lightGreen,
+      Colors.blueGrey,
+      Colors.deepPurple,
+    ],
+    category: "WomenFashion",
+    review: "(55 Reviews)",
+    rate: 5.0,
+    quantity: 1,
+  ),Product(
+    title: "  Pants",
+    description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
+    image: "imgs/FSicons/seven.jpg",
+    price: 65,
+    seller: "PK Store",
+    colors: [
+      Colors.lightGreen,
+      Colors.blueGrey,
+      Colors.deepPurple,
+    ],
+    category: "WomenFashion",
+    review: "(55 Reviews)",
+    rate: 5.0,
+    quantity: 1,
+  ),Product(
+    title: "  Pants",
+    description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
+    image: "imgs/FSicons/seven.jpg",
+    price: 65,
+    seller: "PK Store",
+    colors: [
+      Colors.lightGreen,
+      Colors.blueGrey,
+      Colors.deepPurple,
+    ],
+    category: "WomenFashion",
+    review: "(55 Reviews)",
+    rate: 5.0,
+    quantity: 1,
+  ),
 ];
 
 final List<Product> shoes = [
@@ -186,7 +331,7 @@ final List<Product> shoes = [
     title: "Air Jordan",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
-    image: "images/shoes/Air Jordan.png",
+    image: "imgs/FSicons/seven.jpg",
     price: 65,
     seller: "The Seller",
     colors: [
