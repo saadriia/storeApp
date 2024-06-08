@@ -3,43 +3,57 @@ import 'package:shopiphy/models/product_model.dart';
 import 'package:shopiphy/screens/Details/details_screen.dart';
 import 'package:shopiphy/screens/constants.dart';
 
-class ProductCart extends StatelessWidget {
+class ProductCart extends StatefulWidget {
   final Product product;
   const ProductCart({super.key, required this.product});
 
   @override
+  State<ProductCart> createState() => _ProductCartState();
+}
+
+class _ProductCartState extends State<ProductCart> {
+//  bool isMobile(BuildContext context) => MediaQuery.of(context).size.width<600 ;
+  @override
   Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
+        double screenHight = MediaQuery.of(context).size.height;
+
     return GestureDetector(
       onTap: () {
         Navigator.push(
           context,
           MaterialPageRoute(
             builder: (context) => DetailsScreen(
-              product: product,
+              product: widget.product,
             ),
           ),
         );
       },
       child: Stack(children: [
+        //if (isMobile(context))
         Container(
-          width: double.infinity,
+          // height: screenHight,
+          // width: screenWidth,
+      //    width: double.infinity,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
             color: kcontentColor,
           ),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          
+            //crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const SizedBox(
-                height: 15,
-              ),
-              Center(
-                child: Padding(
-                  padding: const EdgeInsets.only(bottom:BorderSide.strokeAlignInside),
+            
+              Container(
+                
+                child: Center(
+                  
                   child: Image.asset(
-                    product.image,
-                    width: double.infinity,
-                    height: double.infinity,
+                    
+                    widget.product.image,
+                    width:screenWidth*0.25,
+                    height: 144,
+                    
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -50,11 +64,11 @@ class ProductCart extends StatelessWidget {
 
               //  ),
               Padding(
-                  padding: const EdgeInsets.only(left: 80, top: 16),
+                  padding: const EdgeInsets.only(left: 40, top: 16),
                   child: Row(
                     children: [
                       Text(
-                        "\$${product.price}",
+                        "\$${widget.product.price}",
                         style: const TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 20,

@@ -21,7 +21,14 @@ class CustomAppBar extends StatelessWidget {
           onPressed: () {},
           icon: Icon(Icons.grid_view_outlined),
         ),
-     
+     Container(
+      child: Image.asset(
+        
+        'imgs/FSicons/logo.jpg',
+        width: 100,
+        height: 80,
+        ),
+     ),
     
     IconButton(
       style: IconButton.styleFrom(

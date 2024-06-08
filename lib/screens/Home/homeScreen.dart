@@ -50,26 +50,27 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    '4U خصم 30% على كل كتب     ',
+                    '4u خصم 30% على كل كتب     ',
                     style: TextStyle(
                       fontSize: 25,
                       fontWeight: FontWeight.w800,
                     ),
                   ),
-                  Text(
-                    'َشوف كل المنتجات ',
-                    style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.w500,
-                      color: Colors.black54,
-                    ),
-                  ),
+                  // Text(
+                  //   'َشوف كل المنتجات ',
+                  //   style: TextStyle(
+                  //     fontSize: 16,
+                  //     fontWeight: FontWeight.w500,
+                  //     color: Color.fromARGB(137, 78, 61, 61),
+                  //   ),
+                  // ),
                   SizedBox(
                     height: 5,
                     width: 5,
                   )
                 ],
               ),
+              SizedBox(height: 10,),
               GridView.builder(
                   physics: NeverScrollableScrollPhysics(),
                   shrinkWrap: true,
