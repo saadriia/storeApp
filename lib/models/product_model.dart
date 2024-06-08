@@ -27,7 +27,7 @@ class Product {
 
 final List<Product> all = [
   Product(
-    title: "Wireless Headphones",
+    title: "كتاب ليطمئن قلبي ",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image:   'imgs/FSicons/tow.jpg',
@@ -44,7 +44,7 @@ final List<Product> all = [
     quantity: 1,
   ),
   Product(
-    title: "Woman Sweter",
+    title: "كتاب رسائل من النبي",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: 'imgs/FSicons/one.jpg',
@@ -61,7 +61,7 @@ final List<Product> all = [
     quantity: 1,
   ),
   Product(
-    title: "Smart Watch",
+    title: "كتاب رسائل من النبي",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: 'imgs/FSicons/one.jpg',
@@ -78,7 +78,7 @@ final List<Product> all = [
     quantity: 1,
   ),
   Product(
-    title: "Mens Jacket",
+    title: "كتاب وبالحق أنزلناه   ",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: "imgs/FSicons/five.jpg",
@@ -89,13 +89,13 @@ final List<Product> all = [
       Colors.orange,
       Colors.green,
     ],
-    category: "Men Fashion",
+    category: "كتاب وبالحق أنزلناه ",
     review: "(20 Reviews)",
     rate: 5.0,
     quantity: 1,
   ),
    Product(
-    title: "Watch",
+    title: "كتاب رسائل من القران ",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: "imgs/FSicons/three.jpg",
@@ -112,7 +112,7 @@ final List<Product> all = [
     quantity: 1,
   ),
    Product(
-    title: "Air Jordan",
+    title: "كتاب عندما التقيت عمر بن الخطاب ",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: "imgs/FSicons/four.jpg",
@@ -129,7 +129,7 @@ final List<Product> all = [
     quantity: 1,
   ),
   Product(
-    title: "Super Perfume",
+    title: "كتاب عندما التقيت عمر بن الخطاب ",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
     image: "imgs/FSicons/five.jpg",
@@ -183,7 +183,7 @@ final List<Product> all = [
     title: "  Pants",
     description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat. In massa tempor nec feugiat nisl. Libero id faucibus nisl tincidunt.",
-    image: "imgs/FSicons/eghit.jpg",
+    image: "imgs/FSicons/eghit.jpeg",
     price: 65,
     seller: "PK Store",
     colors: [

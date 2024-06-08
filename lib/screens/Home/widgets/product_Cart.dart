@@ -34,17 +34,21 @@ class ProductCart extends StatelessWidget {
                 height: 15,
               ),
               Center(
-                child: Image.asset(
-                  product.image,
-                  width: 150,
-                  height: 210,
-                  fit: BoxFit.cover,
+                child: Padding(
+                  padding: const EdgeInsets.only(bottom:BorderSide.strokeAlignInside),
+                  child: Image.asset(
+                    product.image,
+                    width: double.infinity,
+                    height: double.infinity,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
-              // const SizedBox(
-              //   height: 10,
+              // Spacer(flex:3 ),
+              //  const SizedBox(
+              //    height: 10,
 
-              // ),
+              //  ),
               Padding(
                   padding: const EdgeInsets.only(left: 80, top: 16),
                   child: Row(

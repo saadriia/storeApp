@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:shopiphy/models/product_model.dart';
-import 'package:shopiphy/screens/Details/Details_AppBar.dart';
-import 'package:shopiphy/screens/Details/image_Slider.dart';
+import 'package:shopiphy/screens/Details/widget/Items_details.dart';
 import 'package:shopiphy/screens/constants.dart';
+
+import 'widget/Details_AppBar.dart';
+import 'widget/image_Slider.dart';
 
 class DetailsScreen extends StatefulWidget {
   final Product product;
@@ -22,7 +24,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            DetailsAppBar(),
+            const DetailsAppBar(),
             MyImageSlider(
               onChange: (index) {
                 setState(() {
@@ -50,6 +52,33 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           : Colors.transparent,
                       border: Border.all(color: Colors.black)),
                 ),
+              ),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            Container(
+              width: double.infinity,
+              decoration: const BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.only(
+                  topRight: Radius.circular(40),
+                  topLeft: Radius.circular(40),
+                ),
+              ),
+              padding: const EdgeInsets.only(
+                left: 20,
+                right: 20,
+                top: 20,
+                bottom: 100,
+
+              ),
+              child:   Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                 ItemsDetails(product: widget.product),  
+
+                ],
               ),
             ),
           ],
