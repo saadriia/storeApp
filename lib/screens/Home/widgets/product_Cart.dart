@@ -49,8 +49,8 @@ class _ProductCartState extends State<ProductCart> {
                 child: Image.asset(
                   
                   widget.product.image,
-                  width:screenWidth*0.25,
-                  height: 144,
+                  width:screenWidth*0.30,
+                  height: 145,
                   
                   fit: BoxFit.cover,
                 ),
