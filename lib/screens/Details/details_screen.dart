@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopiphy/models/product_model.dart';
+import 'package:shopiphy/screens/Details/widget/Add_To_Cart.dart';
 import 'package:shopiphy/screens/Details/widget/Items_details.dart';
 import 'package:shopiphy/screens/constants.dart';
 
@@ -21,6 +22,8 @@ class _DetailsScreenState extends State<DetailsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: kcontentColor,
+      floatingActionButton: AddToCart(product: widget.product),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: SafeArea(
         child: Column(
           children: [

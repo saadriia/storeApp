@@ -12,13 +12,28 @@ class ItemsDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+
       children: [
         Text(
           product.title,
-          style:   TextStyle(
+          style:   const TextStyle(
             fontWeight: FontWeight.w800,
              fontSize: 25),
         ),
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+          Text(
+          "\$${product.price}",
+          style:    const TextStyle(
+            fontWeight: FontWeight.w800,
+             fontSize: 25),
+        ),
+//SizedBox(height: 10,)
+
+
+        ],)
       ],
     );
   }

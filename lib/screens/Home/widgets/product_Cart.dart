@@ -44,18 +44,15 @@ class _ProductCartState extends State<ProductCart> {
             //crossAxisAlignment: CrossAxisAlignment.start,
             children: [
             
-              Container(
+              Center(
                 
-                child: Center(
+                child: Image.asset(
                   
-                  child: Image.asset(
-                    
-                    widget.product.image,
-                    width:screenWidth*0.25,
-                    height: 144,
-                    
-                    fit: BoxFit.cover,
-                  ),
+                  widget.product.image,
+                  width:screenWidth*0.25,
+                  height: 144,
+                  
+                  fit: BoxFit.cover,
                 ),
               ),
               // Spacer(flex:3 ),
