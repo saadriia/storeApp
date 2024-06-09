@@ -25,7 +25,7 @@ class DetailsAppBar extends StatelessWidget {
               padding: const EdgeInsets.all(15),
             ),
             onPressed: () {},
-            icon: const Icon(Icons.share_location_outlined),
+            icon: const Icon(Icons.share_outlined),
           ),
           const SizedBox(
             width: 10,
