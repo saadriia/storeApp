@@ -55,9 +55,9 @@ class _AddToCartState extends State<AddToCart> {
                       color: Colors.white,
                     ),
                   ),
-                  const SizedBox(
-                    width: 5,
-                  ),
+                  // const SizedBox(
+                  //   width: 10,
+                  // ),
                   Text(
                     currntIndex.toString(),
                     style: const TextStyle(
@@ -69,8 +69,8 @@ class _AddToCartState extends State<AddToCart> {
                   IconButton(
                     onPressed: () {
                       setState(() {
-                          currntIndex++;
-                        });
+                        currntIndex++;
+                      });
                     },
                     iconSize: 18,
                     icon: const Icon(
@@ -86,7 +86,7 @@ class _AddToCartState extends State<AddToCart> {
                 provider.toggleFavorite(widget.product);
                 const snackBar = SnackBar(
                   content: Text(
-                    'تم الاضافة بنجاح ',
+                    'تم طلب المنتج بنجاح ',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 25,
@@ -95,6 +95,7 @@ class _AddToCartState extends State<AddToCart> {
                   ),
                   duration: Duration(seconds: 1),
                 );
+                
                 ScaffoldMessenger.of(context).showSnackBar(snackBar);
               },
               child: Container(
@@ -105,6 +106,7 @@ class _AddToCartState extends State<AddToCart> {
                   color: kPrimaryColor,
                   borderRadius: BorderRadius.circular(50),
                 ),
+
                 //alignment: Alignment.centerRight,
                 padding: const EdgeInsets.symmetric(horizontal: 50),
                 child: const Text(
