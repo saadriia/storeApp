@@ -1,4 +1,7 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
+import 'package:shopiphy/screens/CArt/CheckOut.dart';
 import 'package:shopiphy/screens/constants.dart';
 import 'package:shopiphy/screens/nav_Bar.dart';
 
@@ -26,10 +29,12 @@ class _CartScreenState extends State<CartScreen> {
                 : provider.decrementQtn(index);
           });
         },
+        child: Icon(icon,size: 20,),
       );
     }
 
     return Scaffold(
+      bottomSheet:   CheckOutBox(),
       backgroundColor: kcontentColor,
       body: SafeArea(
           child: Column(
@@ -136,6 +141,7 @@ class _CartScreenState extends State<CartScreen> {
                         top: 35,
                         right: 35,
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.end,
                           children: [
                             IconButton(
                               onPressed: () {
@@ -148,7 +154,35 @@ class _CartScreenState extends State<CartScreen> {
                                 size: 26,
                               ),
                             ),
-                            SizedBox(height: 10,)
+                            const SizedBox(height: 10,),
+                            Container(
+                              height: 40,
+                              decoration: BoxDecoration(
+                                color: kcontentColor,
+                                border: Border.all(
+                                  color: Colors.grey.shade200,
+                                  width: 2,
+                                ),
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              child: Row(
+                                children: [
+                                  const SizedBox(width: 10,),
+                                  productQuantity(Icons.add, index),
+                                    const SizedBox(width: 10,),
+                                  Text(
+                                    cartItems.quantity.toString(),
+                                    style: const TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black,
+                                    ),
+                                  ),
+                                  const SizedBox(width: 10,),
+                                  productQuantity(Icons.remove, index),
+                                    const SizedBox(width: 10,),
+                                  ],
+                              ),
+                            ),
                           ],
                         ),
                       )

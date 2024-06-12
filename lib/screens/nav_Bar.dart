@@ -3,6 +3,7 @@ import 'package:shopiphy/favorite.dart';
 import 'package:shopiphy/screens/CArt/CartScreen.dart';
 import 'package:shopiphy/screens/Home/homeScreen.dart';
 
+import 'Home/GridScreen.dart';
 import 'constants.dart';
 
 class BottomNavBar extends StatefulWidget {
@@ -15,7 +16,7 @@ class BottomNavBar extends StatefulWidget {
 class _BottomNavBarState extends State<BottomNavBar> {
   int cuttentIndex = 2;
       List screens = const [
-              Scaffold(),
+              GridScreen(),
               Favorit(),
               HomeScreen(),
               CartScreen(),Scaffold(),
