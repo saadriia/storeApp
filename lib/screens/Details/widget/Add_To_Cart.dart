@@ -1,3 +1,7 @@
+// ignore_for_file: prefer_const_declarations, deprecated_member_use
+
+import 'package:url_launcher/url_launcher.dart';
+
 import 'package:flutter/material.dart';
 import 'package:shopiphy/models/product_model.dart';
 import 'package:shopiphy/provider/cart_provider.dart';
@@ -83,6 +87,9 @@ class _AddToCartState extends State<AddToCart> {
             ),
             GestureDetector(
               onTap: () {
+                sendMessageOnWhatsApp(
+                  product: widget.product,
+                );
                 provider.toggleFavorite(widget.product);
                 const snackBar = SnackBar(
                   content: Text(
@@ -95,7 +102,7 @@ class _AddToCartState extends State<AddToCart> {
                   ),
                   duration: Duration(seconds: 1),
                 );
-                
+
                 ScaffoldMessenger.of(context).showSnackBar(snackBar);
               },
               child: Container(
@@ -123,5 +130,18 @@ class _AddToCartState extends State<AddToCart> {
         ),
       ),
     );
+  }
+
+  //اطلب على الواتس
+  static Future<void> sendMessageOnWhatsApp({required Product product}) async {
+    final number = "+201021425996";
+    final message =
+        " السلام عليكم  \n اريد ان اشترى هذا \n ${product.title}, \n ${product.image}, \n${product.price} ";
+    final url = 'https://wa.me/$number?text=${Uri.encodeComponent(message)}';
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'لا يمكن الارسال $url ';
+    }
   }
 }
